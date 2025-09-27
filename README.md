@@ -31,3 +31,16 @@ The app allows you to **add, edit, delete, search, sort, and view users** in a c
    ```bash
    git clone https://github.com/Osamaeldeed/Users-Dashboard.git
    cd Users-Dashboard/vue-project
+   Install dependencies:
+
+npm install
+
+
+Run JSON Server (for mock API):
+
+npx json-server --watch db.json --port 3000
+
+
+Start the Vue app:
+
+npm run dev
