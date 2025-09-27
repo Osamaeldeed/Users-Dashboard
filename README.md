@@ -1,35 +1,33 @@
-# vue-project
+# 👤 Users Dashboard
 
-This template should help get you started developing with Vue 3 in Vite.
+A modern and responsive **Users Management Dashboard** built with **Vue.js 3** and **Tailwind CSS**.  
+The app allows you to **add, edit, delete, search, sort, and view users** in a clean UI with pagination support.  
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🚀 Features
+- 🔍 Search users by name
+- ↕️ Sort users by **First Name, Age, Email, Country**
+- 📄 Pagination (10 users per page)
+- ➕ Add new users with validation
+- ✏️ Edit and update user details
+- ❌ Delete users
+- 📱 Fully responsive (Table → Cards on mobile/tablet)
+- 🎨 Modern design with animations
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 🛠️ Tech Stack
+- [Vue.js 3](https://vuejs.org/) – Frontend framework
+- [Tailwind CSS](https://tailwindcss.com/) – Styling
+- [Axios](https://axios-http.com/) – API requests
+- [JSON Server](https://github.com/typicode/json-server) – Mock backend
 
-## Project Setup
+---
 
-```sh
-npm install
-```
+## ⚙️ Installation & Setup
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Osamaeldeed/Users-Dashboard.git
+   cd Users-Dashboard/vue-project
